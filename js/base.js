@@ -1,6 +1,11 @@
 $(document).ready(function() {
     //$(".container").css("height", $( window ).height());
-
+    $('#lets_ride_button').click(function(){
+        $('#lets_ride_lyrics').toggle()
+    })
+    $('#mama_siah_button').click(function(){
+        $('#mama_siah_lyrics').toggle()
+    })
 
 });
 
