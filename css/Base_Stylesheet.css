@@ -1,59 +1,67 @@
-#navbar .navbar_item{
-    color: #D3D3D3;
-    padding-left: 5em;
-    padding-right: 5em;
-    text-decoration: none; /* no underline */
-    font-size: .2em;
+html{
+    color: white;
+}
+
+body{
+    margin: 0; !important
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
-
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#navbar .navbar_item a{
-    text-decoration: none; /* no underline */
-    color: #D3D3D3;
-
-}
-
-#navbar .navbar_item a:hover{
-    text-decoration: none; /* no underline */
-    color: #f1f1f1;
-
-}
-
-#navbar .navbar_current_item{
-    color: #D3D3D3;
+.active{
     background-color: black;
-    padding-left: 5em;
-    padding-right: 5em;
-    text-decoration: none; /* no underline */
-    font-size: .2em;
+}
+
+.container{
+
+    background-image: url(../media/img/index_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:auto;
+
+}
+.main_content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.title p{
+    font-size: 6em;
     text-align: center;
+    text-shadow: 3px 3px black;
 
 }
 
-#navbar .navbar_current_item a{
-    text-decoration: none; /* no underline */
-    color: #D3D3D3;
-
-}
-
-#navbar .navbar_current_item a:hover{
-    text-decoration: none; /* no underline */
-    color: #f1f1f1;
-
-}
-
-
-
-
-
-
-
-.vertical_rule{
-    background-color: #d3d3d3;
-    width: 1px;
-    height: 3em;
-    vertical-align: bottom;
-    margin-top: 1em;
-
+.band_logo{
+    text-align: center;
+    opacity: .9;
+    width: 100%;
 }

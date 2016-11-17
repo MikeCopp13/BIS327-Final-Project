@@ -1,6 +1,6 @@
-﻿/*Start Index Design*/
+/*Start Index Design*/
 .index_design{
-    background-image: url(/Web_Page/Index/Images/index_background.jpg);
+    background-image: url(../media/img/index_background.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     display: block;
@@ -13,7 +13,7 @@
     padding-left: 10px;
     padding-right: 10px;
     max-width: 1750px;
-    background-image: url(/Web_Page/Index/Images/Band_Logo.JPG);
+    background-image: url(/../media/img/Band_Logo.JPG);
     background-repeat: no-repeat;
     display: block;
     background-size: cover;
@@ -80,4 +80,3 @@
     float: right;
 }
 /*End Music Design*/
-
